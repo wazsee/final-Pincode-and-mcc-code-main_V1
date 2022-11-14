@@ -10,7 +10,9 @@ def milking(request_json):
         response = {}
         #df = pd.read_csv(r"C:\Users\satishkumar.s\Downloads\final-Pincode-and-mcc-code-main\final-Pincode-and-mcc-code-main\Haptik_Pincode-and-MCC-code-main\Haptik_Pincode-and-MCC-code-main\Milkrare-Haptik-copy\factory\Haptikdata.csv",encoding='latin-1')
         #url = "https://github.com/wazsee/Haptik_Pincode-and-MCC-code/blob/main/Milkrare-Haptik%20-%20Copy/factory/Haptikdata.csv?raw=true"
-        url="final-Pincode-and-mcc-code-main_V1/final-Pincode-and-mcc-code-main/Haptik_Pincode-and-MCC-code-main/Haptik_Pincode-and-MCC-code-main/Milkrare-Haptik-copy/factory/Haptikdata.csv"
+#         url="final-Pincode-and-mcc-code-main_V1/final-Pincode-and-mcc-code-main/Haptik_Pincode-and-MCC-code-main/Haptik_Pincode-and-MCC-code-main/Milkrare-Haptik-copy/factory/Haptikdata.csv"
+#         df = pd.read_csv(url)
+        url = "https://github.com/wazsee/final-Pincode-and-mcc-code-main_V1/blob/main/final-Pincode-and-mcc-code-main_V1/final-Pincode-and-mcc-code-main/Haptik_Pincode-and-MCC-code-main/Haptik_Pincode-and-MCC-code-main/Milkrare-Haptik-copy/factory/Haptikdata.csv?raw=true"
         df = pd.read_csv(url)
         
 
